@@ -83,8 +83,7 @@ const Contact = () => {
                 e.target,
                 import.meta.env.VITE_EMAILJS_USER_ID
             )
-            .then((result) => {
-                console.log(result.text);
+            .then(() => {
                 setIsSubmitted(true);
                 setTimeout(() => {
                     setIsSubmitted(false);
