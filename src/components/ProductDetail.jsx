@@ -84,7 +84,8 @@ export default function ProductModal({ product, onClose }) {
 								<Button variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-100" onClick={onClose}>
 									Close
 								</Button>
-								<Button className="bg-green-600 text-white hover:bg-green-700">Contact Sales</Button>
+								<Button className="bg-green-600 text-white hover:bg-green-700"><a value="+252 61 332 8355"
+                                    href="https://wa.me/252613328355">Contact Sales</a></Button>
 							</div>
 						</div>
 								</MotionDiv>
